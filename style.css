@@ -1,0 +1,371 @@
+
+  
+   
+body{
+  background-color: #1c1c1c;
+}     
+        
+.mgtitle{
+  position: absolute;
+  text-align: center;
+  font-size: 30pt;
+background-size: 200rem;
+  top:50%;
+  left:20%;
+  height: 1000px;
+  width:200px;
+  animation-duration:1s;
+  animation-name:position;
+  animation-timing-function: step-end;
+  animation-iteration-count: infinite;
+   
+}
+
+.mgtitle :hover {
+  
+}
+
+@keyframes position
+  {
+    0% { margin-left: 50px; background-color: transparent
+    color: black;}
+  50% { margin-left: 0px; background-color:transparent; 
+  color: white}
+  100% { margin-left: 50px; background-color: transparent;
+    color: black; }
+    
+}
+.HA{
+  position: absolute;
+  text-align: center;
+  font-size: 60pt;
+background-size:contain;
+  top:50%;
+  left:61%;
+  height: 200px;
+  width:200px;
+  animation-duration:1s;
+  animation-name:position2;
+  animation-timing-function: step-end;
+  animation-iteration-count: infinite;
+   
+}
+@keyframes position2
+  {
+    0% { margin-left: 0px; background-color: transparent
+    color: black;}
+  50% { margin-left: 50px; background-color:transparent; 
+  color: white}
+  100% { margin-left: 0px; background-color: transparent;
+    color: black; }
+    
+}
+
+
+        .outline0{
+         font-size: 30px;
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+         position:relative;
+         top: 2em;
+         left: 10em;
+         
+       }
+
+       .outline0 :hover{
+         color: rgb(255, 199, 45);
+        
+
+        } 
+
+        .outline1{
+      
+          display: flex;
+          font-family: 'Montserrat', sans-serif;
+           position:relative;
+           top: 1.5em;
+           left: 68em;
+           
+         }
+  
+         .outline1 :hover{
+           color: rgb(255, 199, 45);
+          
+  
+          } 
+
+       .outline2 {
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        top: 0.3em;
+        left: 78em;
+      }
+
+      .outline2 :hover{
+        color: rgb(255, 199, 45);
+
+      }
+
+      .outline3 {
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        bottom: 1.0em;
+        left: 87em;
+      }
+
+      .outline3 :hover{
+        color: rgb(255, 199, 45);
+
+      }
+
+      .outline4 {
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        bottom: 2.3em;
+        left: 101em;
+      }
+      
+      .outline4 :hover{
+        color: rgb(255, 199, 45);
+
+      }
+
+      .outline5 {
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        bottom: 3.6em;
+        left: 111em;
+      }
+      
+      .outline5 :hover{
+        color: rgb(255, 199, 45);
+
+      }
+      .WELCOMEHA {
+        position: relative;
+        display: inline-block;
+        color: aliceblue;
+        font-size: 2em;
+      }
+
+      .chinese {
+        display: flex;
+       
+        justify-content:center;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: white;
+        position: relative;
+        bottom: 47em;
+    
+        font-size: 28px;
+        animation-duration:1s;
+        animation-name:color2;
+        animation-timing-function: step-end;
+        animation-iteration-count: infinite;
+        
+      }
+      @keyframes color2
+      {
+          0% { margin-bottom: 0px; background-color: white}
+        50% { margin-bottom: 200px; background-color: transparent; }
+        
+      }
+      .chinese :hover{
+        background-color:white ;
+        color: black;
+    
+
+      }
+
+      .whoiam1{
+        display: flex;
+       
+        justify-content:center;
+        font-family: 'Montserrat', sans-serif;
+        color: gray;
+        position: relative;
+        bottom: 27em;
+        
+        font-size: 15px;
+        animation-duration:1s;
+        animation-name:color;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        
+      }
+     
+      .whoiam2{
+        display: flex;
+       
+        justify-content:center;
+        font-family: 'Montserrat', sans-serif;
+        color: gray;
+        position: relative;
+        bottom: 26.9em;
+        
+        font-size: 15px;
+        animation-duration:1s;
+        animation-name:color;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        
+      }
+     
+      .whoiam3{
+        display: flex;
+       
+        justify-content:center;
+        font-family: 'Montserrat', sans-serif;
+        color: gray;
+        position: relative;
+        bottom: 26.8em;
+        
+        font-size: 15px;
+        animation-duration:1s;
+        animation-name:color;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        
+      }
+     
+    
+      }
+       
+       h1 {
+        
+         display:inline-block
+         color:orange;
+          font-size: 50px;
+          font-weight: 200;
+          font-family: 'Montserrat', sans-serif;
+          text-align: center;
+                   
+        }
+
+        h2 {
+          display: inline;
+          
+          font-family: 'Montserrat', sans-serif;
+            color: orange;
+            font-size: 45px;
+            font-weight: 200;
+            font-family: 'Montserrat', sans-serif;
+          }
+
+        
+
+        .mainimage {
+          
+          background-color: black;
+        }
+        
+       
+         .vimeo {
+         display: flex;
+       
+          justify-content:center;
+          
+         }
+
+
+        P {
+          display: inline-flex;
+          color: black;
+          font-size: 20px;
+          font-family: 'Montserrat', sans-serif;
+        }
+
+        body{
+          font-family: 'Montserrat', sans-serif;
+          color: gray;
+          font-size: 20px;
+        }
+
+        form {
+          font-family: 'Montserrat', sans-serif;
+            color: black;
+            font-family: 'Montserrat', sans-serif;
+            color: black;
+            font-size: 10px;
+            font-weight: 400;
+            text-align: center;
+        }
+        
+        iframe {
+          font-family: 'Montserrat', sans-serif;
+           color: orange;
+        }
+        
+        .question {
+          font-family: 'Montserrat', sans-serif;
+        }
+
+        .answer {
+          font-family: 'Montserrat', sans-serif;
+        }
+        .aboutme {
+          display: inline;
+        }
+     .mainimage {
+       size: 100em;
+      display: flex;
+      top:5em;
+      justify-content:center;
+     }
+    
+     @media only screen and (min-width: 500px) and (max-width: 1200px) {
+      
+       
+      .vimeo{
+        width: 600px;
+             
+         }
+         .outline{
+           
+           font-size: 1.2rem;
+             
+         }
+         .mainimage{
+          width: 600px;
+        
+          
+     
+             
+         }
+         .chinese{
+         
+           font-size: 1.2rem;
+         }
+         .whoiam{
+    
+           font-size: 1.2rem;
+         }
+         .h1{
+         
+           font-size: 1.2rem;
+             
+         }
+         .h2{
+           
+           font-size: 1.2rem;
+             
+         }
+         .form{
+          
+           font-size: 1.2rem;
+             
+         }
+         .p{
+           height:150px;
+           font-size: 1.2rem;
+             
+           h1 {
+            height: 100px;
+          }
+          
+         
+         }
