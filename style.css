@@ -1,9 +1,8 @@
-
-  
-   
 body{
-  padding:10px;
+  margin: 0;
+  padding: 10px 0;
   background-color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }     
 
 .loader_bg{
@@ -79,7 +78,7 @@ background-size: 200rem;
   max-width: 3600px;
   max-height: 3600px;
   margin:auto;
-  background: :#f2f2f2;
+  background: #f2f2f2;
   overflow:auto;
 }
 
@@ -102,89 +101,45 @@ background-size: 200rem;
   text-align: center;
 }
 
-        .outline0{
-         font-size: 30px;
-         font-weight: 200;
-         color: black;
-        display: flex;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-         position:relative;
-         top: 1em;
-         left: 30em;
-         
-       }
+nav {
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
 
-       .outline1{
-        font-size: 10px;
-        font-weight: 200;
-        color: gray;
-       display: flex;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        position:relative;
-        top: 3em;
-        left: 90em;
-        
-      }
+.logo {
+  width: 30%;
+}
 
-      
-  
-         
+.links {
+  display: flex;
+  padding-top: .8em;
+  justify-content: space-between;
+  width: 70%;
+}
 
-       .outline2 {
-        display: flex;
-        color: gray;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        position: relative;
-        top: 0.3em;
-        left: 98em;
-      }
+.outline0{
+  font-size: 30px;
+  font-weight: 200;
+  color: black;
+}
 
-      .outline2 :hover{
+.outline1, .outline2, .outline3, .outline4 {
+  color: gray;
+}
+
+.outline1{
+  font-size: 10px;
+  font-weight: 200;
+  color: gray;
+}
+ 
+
+      .outline2:hover, .outline3:hover, .outline4:hover, .outline5:hover {
         color: rgb(255, 199, 45);
-
       }
 
-      .outline3 {
-        display: flex;
-        color: gray;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        position: relative;
-        bottom: 1.0em;
-        left: 109.5em;
-      }
-
-      .outline3 :hover{
-        color: rgb(255, 199, 45);
-
-      }
-
-      .outline4 {
-        display: flex;
-        color: gray;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        position: relative;
-        bottom: 2.3em;
-        left: 123em;
-      }
-      
-      .outline4 :hover{
-        color: rgb(255, 199, 45);
-
-      }
-
-      .outline5 {
-        display: flex;
-        color: gray;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        position: relative;
-        bottom: 3.6em;
-        left: 135em;
-      }
-      
-      .outline5 :hover{
-        color: rgb(255, 199, 45);
-
-      }
       .WELCOMEHA {
         position: relative;
         display: inline-block;
@@ -310,8 +265,6 @@ background-size: 200rem;
         
       }
     
-      }
-       
        h1 {
          text-align: left;
         max-width: 200px;
@@ -387,12 +340,13 @@ background-size: 200rem;
         }
      .mainimage {
        position: relative;
-       
-       left:45em;
        width:100%;
-     
-      
-      
+    
+     }
+
+     .mainimage img {
+       max-width: 100%;
+       width: 100%;
      }
 
      
@@ -400,10 +354,10 @@ background-size: 200rem;
      @media only screen and (min-width: 500px) and (max-width: 1200px) {
       
        
-      .container{
+      .container {
        
              
-         }
+      }
          .outline{
            
            font-size: 1.2rem;
@@ -436,10 +390,10 @@ background-size: 200rem;
          .p{
            height:150px;
            font-size: 1.2rem;
-             
-           h1 {
-            height: 100px;
-          }
-          
-         
          }
+
+h1 {
+  height: 100px;
+}
+     }
+     
